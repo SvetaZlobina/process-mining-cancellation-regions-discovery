@@ -1,0 +1,23 @@
+.model PTS_.00_.04mined_.00from_.00RequestForPayment_.00_.04filtered_.00on_.00simple_.00heuristics_.05_.05
+.dummy Request_.00For_.00Payment_.00REJECTED_.00by_.00SUPERVISOR_.11 Request_.00For_.00Payment_.00SUBMITTED_.00by_.00EMPLOYEE_.11 Request_.00For_.00Payment_.00APPROVED_.00by_.00BUDGET_.00OWNER_.11 Payment_.00Handled_.11 Request_.00For_.00Payment_.00REJECTED_.00by_.00PRE_APPROVER_.11 Request_.00For_.00Payment_.00REJECTED_.00by_.00ADMINISTRATION_.11 Request_.00For_.00Payment_.00APPROVED_.00by_.00SUPERVISOR_.11 Request_.00For_.00Payment_.00APPROVED_.00by_.00ADMINISTRATION_.11 Request_.00For_.00Payment_.00REJECTED_.00by_.00EMPLOYEE_.11 Request_.00For_.00Payment_.00REJECTED_.00by_.00BUDGET_.00OWNER_.11 Request_.00For_.00Payment_.00APPROVED_.00by_.00PRE_APPROVER_.11
+.state graph
+s6 Payment_.00Handled_.11 s2
+s1 Request_.00For_.00Payment_.00APPROVED_.00by_.00BUDGET_.00OWNER_.11 s5
+s1 Request_.00For_.00Payment_.00REJECTED_.00by_.00BUDGET_.00OWNER_.11 s3
+s1 Request_.00For_.00Payment_.00REJECTED_.00by_.00SUPERVISOR_.11 s3
+s5 Request_.00For_.00Payment_.00APPROVED_.00by_.00SUPERVISOR_.11 s6
+s0 Request_.00For_.00Payment_.00APPROVED_.00by_.00ADMINISTRATION_.11 s1
+s1 Request_.00For_.00Payment_.00APPROVED_.00by_.00SUPERVISOR_.11 s6
+s3 Request_.00For_.00Payment_.00REJECTED_.00by_.00EMPLOYEE_.11 s2
+s0 Request_.00For_.00Payment_.00APPROVED_.00by_.00SUPERVISOR_.11 s6
+s5 Request_.00For_.00Payment_.00REJECTED_.00by_.00SUPERVISOR_.11 s3
+s1 Payment_.00Handled_.11 s2
+s0 Payment_.00Handled_.11 s2
+s4 Request_.00For_.00Payment_.00SUBMITTED_.00by_.00EMPLOYEE_.11 s0
+s0 Request_.00For_.00Payment_.00REJECTED_.00by_.00ADMINISTRATION_.11 s3
+s0 Request_.00For_.00Payment_.00REJECTED_.00by_.00PRE_APPROVER_.11 s3
+s0 Request_.00For_.00Payment_.00REJECTED_.00by_.00SUPERVISOR_.11 s3
+s0 Request_.00For_.00Payment_.00APPROVED_.00by_.00PRE_APPROVER_.11 s5
+s5 Payment_.00Handled_.11 s2
+.marking { s4 }
+.end
