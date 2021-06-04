@@ -2,95 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c53e7340-dbeb-4c45-a02f-a64d0a1e573d" name="Default Changelist" comment="feat(*): init plugin">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/attachedFile.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProM Package Manager (AnnaKalenkova).launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProM with UITopia (AnnaKalenkova).launch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProM.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ivy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ivysettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/BPMN.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/BPMNAnalysis.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/Log-lib/OpenXES-20181205.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/Log-lib/images/prom_duck_300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/Log-lib/images/resourcetype_ela_30x35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/Log.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/PetriNets.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/TSPetrinet.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packagelib/TransitionSystems.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/process-mining-cancellation-regions-discovery.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/processmining/plugins/aux/CancellationState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/processmining/plugins/aux/MisMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/processmining/plugins/aux/MisMatchExpander.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/processmining/plugins/aux/SplitObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/processmining/plugins/ui/TSDecomposeByCancellationsUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/FilterableSortableTablePanel.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/Spex.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/TableLayout-20050920.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/UITopiaResources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/Uitopia.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/axis.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/bsh-2.0b4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/collections-generic-4.01.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/colt.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/commons-compress-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/commons-math3-3.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/flanagan.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/guava-16.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/analysis.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/arcBridge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/arcRefinement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/filter48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/idlenet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/initialplace.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/logo_branding.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/loopAddition.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/placeBridge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/placeDuplication.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/placeRefinement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/prediction.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/recommendation.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/resourcetype_epc_30x35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/resourcetype_log_30x35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/resourcetype_model_30x35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/resourcetype_petrinet_30x35.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/resourcetypes.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/summary48-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/summary48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/transBridge.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/transDuplication.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/images/transRefinement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jargs.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jas-plotter-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jcommon-1.0.16.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jdom-legacy-1.1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jfreechart-1.0.14.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jgraph.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jlfgr-1_0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jung-algorithms-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jung-api-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jung-graph-impl-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jung-io-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/jung-visualization-2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/junit-4.8.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/openide-lookup-1.9-patched-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/simmetrics.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/slickerbox1.0rc1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/xpp3-1.1.4c.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stdlib/xstream-1.3.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/processmining/plugins/BuildPNWithCancellations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/processmining/plugins/BuildPNWithCancellations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/request_for_payment/pn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/request_for_payment/rwf_net.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/request_for_payment/ts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments/request_for_payment/ts2.sg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/experiments/request_for_payment" />
@@ -204,7 +121,7 @@
       <workItem from="1621024648460" duration="201000" />
       <workItem from="1621024976833" duration="341000" />
       <workItem from="1621025723812" duration="244000" />
-      <workItem from="1621027809824" duration="8050000" />
+      <workItem from="1621027809824" duration="23794000" />
     </task>
     <task id="LOCAL-00001" summary="feat(*): init plugin">
       <created>1620431066341</created>
@@ -227,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621034694377</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat(*): Add main plugin code">
+      <created>1621285064017</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621285064017</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +177,8 @@
     <MESSAGE value="feat(*): init plugin" />
     <MESSAGE value="feat(*): Add experiment results for motivating example" />
     <MESSAGE value="feat(*): Add ts for &quot;request for payment&quot; log" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(*): Add ts for &quot;request for payment&quot; log" />
+    <MESSAGE value="feat(*): Add main plugin code" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(*): Add main plugin code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
